@@ -1,17 +1,17 @@
 import { IoSearch } from "react-icons/io5";
 import { LuShoppingBag } from "react-icons/lu";
-import { MdFastFood } from "react-icons/md";
+import { MdFastfood } from "react-icons/md";
 
 
 function Navbar() {
   return (
     <div className='w-full h-[100px] flex justify-between items-center px-8'>
       <div className='w-[60px] h-[60px] bg-white flex justify-center items-center rounded-md shadow-md'>
-        <MdFastFood className='w-[30px] h-[30px] text-green-500'/>
+        <MdFastfood  className='w-[30px] h-[30px] text-green-500'/>
         {/* Logo or icon can go here */}
       </div>
 
-      <form className='w-[70%] h-[60px] bg-white flex items-center px-5 gap-5 rounded-md shadow-md'>
+      <form className='w-[40%] h-[60px] bg-white flex items-center px-5 gap-5 rounded-md shadow-md md:w-[70%]'>
         <IoSearch className='text-green-500 w-[20px] h-[20px]' />
         <input
           type='text'
